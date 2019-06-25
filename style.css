@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background:   Linear-gradient(217deg, rgba(255,0,0,.8), rgba(70, 15, 15, 0) 70.71%);
+
+  background:  Linear-gradient(127deg, black, black 70.71%);
+
+  background:  Linear-gradient(336deg, rgba(1, 1, 2, 0.8), rgba(236, 62, 62, 0.966) 70.71%);
+  font-family: 'Open Sans', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(134, 25, 25, 0.856);
+  }
+  
+  li {
+    float: left;
+    margin-left: 170px;
+    text-align: center;
+    
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    height:20px;
+    
+  }
+  
+  li a:hover {
+    background-color: rgba(238, 85, 85, 0.596);
+  }
+
+  .cover{
+    height: 60vh;
+    background-image: url("https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    padding: 25px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px 5px rgb(114, 33, 33);
+}
+.heading{
+    color: rgba(246, 246, 246, 0.644);
+    font-size: 90px;
+    text-align: center;
+    padding-top: 50px;
+}
+.courses{
+    width: 80%;
+    margin:auto;
+    margin-left: 180px;
+    margin-top: 200px
+}
+.course img{
+width: 250px;
+height: 200px;
+margin-top: 50px;
+margin-left: 30px
+}
+.course{
+    
+    width: 300px;
+    height: 290px;
+    display: inline-block;
+    margin-bottom: 5px
+}
+.course:hover{
+    outline: black solid 10px;
+    transition: 1s
+    
+}
+
+.form-group{
+    width: 80%;
+    margin:auto;
+  margin-bottom: 200px;
+}
+h2{
+    font-size: 80px;
+    color:rgba(221, 218, 64, 0.767);
+
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+  }
+  .button {
+    background-color: rgba(48, 101, 216, 0.794); /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;    
+  }
+
+  .size {
+    /* margin: 50px; */
+    width: 100px;
+    
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmvCFu9FW_nLHZH7nvgJ9eyvqQhumJB_qvpUZcQdnp1eNbQwYa) 96% / 15% no-repeat #eee;
+  }
+  .police {
+    /* margin: 50px; */
+    width: 100px;
+    
+    padding: 5px 35px 5px 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url(https://cdn0.iconfinder.com/data/icons/editing-vol-2/100/replace_text_font_paragraph_style-512.png) 96% / 15% no-repeat #eee;
+  }
